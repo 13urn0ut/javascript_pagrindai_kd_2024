@@ -8,9 +8,7 @@ const calcPercent = (e) => {
     const number = +form.querySelector(`#number`).value
 
     const answ = (number / 100 * percent).toString();
-    console.log(answ);
     
-
     result.innerHTML = `<p>${answ}</p>`
 }
 
